@@ -2,6 +2,41 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://chenzhangchi.com/friends/index.html</loc>
+    
+    <lastmod>2020-02-01T10:00:59.809Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://chenzhangchi.com/contact/index.html</loc>
+    
+    <lastmod>2020-02-01T10:00:07.286Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://chenzhangchi.com/about/index.html</loc>
+    
+    <lastmod>2020-02-01T09:59:37.739Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://chenzhangchi.com/tags/index.html</loc>
+    
+    <lastmod>2020-02-01T09:57:37.863Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://chenzhangchi.com/categories/index.html</loc>
+    
+    <lastmod>2020-02-01T09:56:59.554Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://chenzhangchi.com/posts/31968.html</loc>
     
     <lastmod>2020-02-01T09:39:20.781Z</lastmod>
@@ -9,44 +44,9 @@
   </url>
   
   <url>
-    <loc>http://chenzhangchi.com/tags/index.html</loc>
-    
-    <lastmod>2020-02-01T09:38:16.068Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://chenzhangchi.com/categories/index.html</loc>
-    
-    <lastmod>2020-02-01T09:37:52.075Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://chenzhangchi.com/friends/index.html</loc>
-    
-    <lastmod>2020-02-01T09:35:43.400Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://chenzhangchi.com/contact/index.html</loc>
-    
-    <lastmod>2020-02-01T09:35:28.170Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://chenzhangchi.com/archives/index.html</loc>
     
     <lastmod>2020-02-01T09:35:09.808Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://chenzhangchi.com/about/index.html</loc>
-    
-    <lastmod>2020-02-01T09:34:57.828Z</lastmod>
     
   </url>
   
