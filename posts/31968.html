@@ -405,7 +405,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2020-02-02
+                    2020-03-10
                 </div>
                 
 
@@ -462,7 +462,7 @@ hexo clean     <span class="token comment" spellcheck="true"># 删除生成的�
 
 <pre class="line-numbers language-bash"><code class="language-bash"><span class="token function">cd</span> ~/Dev/blog
 hexo new <span class="token string">"第一篇自己写的博客"</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
-<img src="https://cdn.jsdelivr.net/gh/zhegeshijiehuiyouai/zhegeshijiehuiyouai.github.io/images/blog/%E9%83%A8%E7%BD%B2hexo-github%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E5%9B%BE%E6%96%87%E5%B9%B6%E8%8C%82%EF%BC%89/07.png" width="60%" height="60%">
+<img src="https://cdn.jsdelivr.net/gh/zhegeshijiehuiyouai/zhegeshijiehuiyouai.github.io/images/blog/%E9%83%A8%E7%BD%B2hexo-github%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E5%9B%BE%E6%96%87%E5%B9%B6%E8%8C%82%EF%BC%89/07.png" width="60%" height="60%">  
 系统提示生成了一个.md文件，没错，hexo博客就是使用markdown标记语言写作博客的
 
 <pre class="line-numbers language-bash"><code class="language-bash">vim ~/Dev/blog/source/_posts/第一篇自己写的博客.md  <span class="token comment" spellcheck="true"># 编辑博客</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
@@ -479,10 +479,11 @@ hexo s<span aria-hidden="true" class="line-numbers-rows"><span></span><span></sp
 <h3 id="3、编辑blog根目录的-config-yml文件"><a href="#3、编辑blog根目录的-config-yml文件" class="headerlink" title="3、编辑blog根目录的_config.yml文件"></a>3、编辑blog根目录的_config.yml文件</h3><p>注意这个 _config.yml 是 blog 根目录的，有些主题也有 _config.yml</p>
 <pre class="line-numbers language-bash"><code class="language-bash">vim _config.yml<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 <p>找到最下面的 deploy，修改如下</p>
-<pre><code>deploy:
-  type: git
+<pre class="line-numbers language-bash"><code class="language-bash">deploy:
+  type: <span class="token function">git</span>
   repo: https://github.com/zhegeshijiehuiyouai/zhegeshijiehuiyouai.github.io.git
-  branch: master</code></pre><p>repo 中填写的是刚才在 github 创建的仓库的地址，master 表示主分支。<br>这是 yaml 格式的文件，注意对齐。下级缩进可以使用多个空格，这里使用两个空格，同时注意有值的行，冒号后面有一个空格。</p>
+  branch: master<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+<p>repo 中填写的是刚才在 github 创建的仓库的地址，master 表示主分支。<br>这是 yaml 格式的文件，注意对齐。下级缩进可以使用多个空格，这里使用两个空格，同时注意有值的行，冒号后面有一个空格。</p>
 <h3 id="4、推送刚才生成的网站到github"><a href="#4、推送刚才生成的网站到github" class="headerlink" title="4、推送刚才生成的网站到github"></a>4、推送刚才生成的网站到github</h3><pre class="line-numbers language-bash"><code class="language-bash">hexo d<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 <p>如果没有用命令行登录过 github，这是会让你输入 github 的账号密码，输入即可。<br>部署成功后，提示如下<br><img src="https://cdn.jsdelivr.net/gh/zhegeshijiehuiyouai/zhegeshijiehuiyouai.github.io/images/blog/%E9%83%A8%E7%BD%B2hexo-github%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E5%9B%BE%E6%96%87%E5%B9%B6%E8%8C%82%EF%BC%89/15.png" width="45%" height="45%"><br>此时刷新自己的 github 仓库，就会看到仓库中已经有内容了<br><img src="https://cdn.jsdelivr.net/gh/zhegeshijiehuiyouai/zhegeshijiehuiyouai.github.io/images/blog/%E9%83%A8%E7%BD%B2hexo-github%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E5%9B%BE%E6%96%87%E5%B9%B6%E8%8C%82%EF%BC%89/16.png" width="80%" height="80%"><br>此时使用仓库名就可以访问到网站了，我的就是 <a href="http://zhegeshijiehuiyouai.github.io" target="_blank" rel="noopener">http://zhegeshijiehuiyouai.github.io</a> ，看到刚才的默认网站已经变成我们生成的网站了</p>
 <hr>
